@@ -15,13 +15,13 @@ echo > .nojekyll
 # if you are deploying to a custom domain
 # echo 'earlyaccess.aconomy.io' > CNAME
 
-git init
-git checkout -B main
-git add -A
-git commit -m 'deploy'
+#git init
+#git checkout -B main
+#git add -A
+#git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:Jyotiraghav/Jyotiraghav.github.io.git main 
+git push -f git@github.com:Jyotiraghav/Demo-App.git main:gh-pages
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 #git push -f git@github.com:Pandora-Finance/aconomy-repo-front.git main:gh-pages
